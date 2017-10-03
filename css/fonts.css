@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "LatoRegular";
+	src: url("../fonts/LatoRegular/LatoRegular.eot");
+	src: url("../fonts/LatoRegular/LatoRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/LatoRegular/LatoRegular.woff") format("woff"),
+	url("../fonts/LatoRegular/LatoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "PlayfairDisplayRegular";
+	src: url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot");
+	src: url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.woff") format("woff"),
+	url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "PlayfairDisplayBold";
+	src: url("../fonts/PlayfairDisplayBold/PlayfairDisplayBold.eot");
+	src: url("../fonts/PlayfairDisplayBold/PlayfairDisplayBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PlayfairDisplayBold/PlayfairDisplayBold.woff") format("woff"),
+	url("../fonts/PlayfairDisplayBold/PlayfairDisplayBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansRegular";
+	src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+	src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+	url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
