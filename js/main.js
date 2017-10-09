@@ -17,3 +17,10 @@ $('.ui-tabs-vertical .ui-tabs-nav li a').click( function (){
 });
 
 //menu
+
+$(document).ready(function(){
+	$('.mobile-menu').click(function(){
+		$('.menu').slideToggle(1500);
+		return false
+	});
+});

@@ -5,8 +5,10 @@
 @import url(../css/slick.css);
 @import url(../css/slick-theme.css);
 @import url(../css/jquery-ui.css);
+html {
+  font-size: 14px; }
+
 body {
-  font-size: 14px;
   letter-spacing: 0.5px; }
 
 .header {
@@ -37,6 +39,19 @@ body {
       .nav .menu__item a:hover {
         border-bottom: 5px solid #e8bf5d; }
 
+.mobile-menu {
+  background: transparent;
+  border: none;
+  color: #222;
+  height: 55px;
+  width: 55px;
+  font-size: 2.5rem;
+  display: block;
+  margin: 0 auto; }
+
+.mobile-menu:focus {
+  outline: none; }
+
 .hero {
   position: relative; }
   .hero__img {
@@ -66,7 +81,7 @@ body {
     background-color: #e8bf5d;
     position: absolute;
     left: 65%;
-    top: 71%; }
+    top: 73%; }
 
 section {
   padding-bottom: 95px; }
@@ -325,7 +340,9 @@ section {
   .map iframe {
     position: absolute;
     top: -20px;
-    left: 20px; }
+    left: 20px;
+    width: 365px;
+    height: 365px; }
 
 .footer {
   min-height: 81px;
@@ -359,3 +376,91 @@ section {
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .copyright, .social {
     text-align: center; } }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .nav .menu__item a {
+    font-size: 0.7rem; }
+  .hero__title {
+    left: 20%; }
+  .hero__link {
+    top: 75%; } }
+
+@media (min-width: 768px) {
+  .mobile-menu {
+    display: none; } }
+
+@media (max-width: 991px) {
+  .logo {
+    text-align: center; }
+  .nav .menu__item a {
+    font-size: 1rem; }
+  .hero__title {
+    left: 20%;
+    font-size: 3rem; }
+  .hero__link {
+    top: 75%; } }
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero__title {
+    left: 26%;
+    top: 10%;
+    font-size: 2.9rem;
+    text-align: center; }
+    .hero__title span {
+      font-size: 1.3rem; }
+  .hero__link {
+    top: 75%;
+    left: 35%; } }
+
+@media (min-width: 594px) and (max-width: 767px) {
+  .hero__title {
+    left: 29%;
+    top: 10%;
+    font-size: 2.9rem;
+    text-align: center; }
+    .hero__title span {
+      font-size: 1.3rem; }
+  .hero__link {
+    top: 75%;
+    left: 35%; } }
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .nav {
+    text-align: center; }
+    .nav .menu {
+      display: none;
+      padding-left: 0; }
+      .nav .menu li {
+        display: block; } }
+
+@media (min-width: 0px) and (max-width: 480px) {
+  html {
+    font-size: 11px; }
+  .hero__img {
+    display: none; }
+  .hero__title {
+    color: #222222;
+    position: relative;
+    text-align: center;
+    left: 0%;
+    margin-bottom: 100px; }
+  .hero__link {
+    position: relative;
+    top: 75%;
+    left: 22%; }
+  .map {
+    width: 200px;
+    height: 200px; }
+    .map iframe {
+      width: 200px;
+      height: 200px; }
+  .page__comments {
+    margin-right: 20px; }
+  .form input {
+    width: 200px; }
+  .form textarea {
+    width: 200px; } }
+
+@media (min-width: 400px) and (max-width: 480px) {
+  .hero__link {
+    left: 28%; } }
