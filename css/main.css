@@ -460,6 +460,11 @@ section {
     width: 200px; }
   .form textarea {
     width: 200px; } }
+@media (min-width: 0px) and (max-width: 400px) {
+  .advantages .advantage h3 .fa-handshake-o{
+    left: -74px;
+  }
+}
 
 @media (min-width: 400px) and (max-width: 480px) {
   .hero__link {
